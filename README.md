@@ -22,7 +22,7 @@ rospy.Rate(10)　: 秒ごとの送信回数
 
 
 
-#kadai2-2
+# kadai2-2
 
 pigpio :Raspberry Piのデジタル入出力のGPIOを使いやすくするためのライブラリ。
 
