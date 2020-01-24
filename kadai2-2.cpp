@@ -16,7 +16,6 @@ class gpio{
   ros::Subscriber sub_led;
 };
 
-
 gpio::gpio(){
   pi = pigpio_start(NULL,NULL);
   sub_led = nh.subscribe("/led", 5, &gpio::cb_LED, this);
