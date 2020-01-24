@@ -1,14 +1,13 @@
 #include <ros/ros.h>
 #include <pigpiod_if2.h>
-
 #include <std_msgs/Bool.h>
+
 
 class gpio{
   public:
   gpio();
   private:
-  int pi;
-  
+  int pi;  
   
   void cb_LED(const std_msgs::Bool::ConstPtr &data);
   ros::NodeHandle nh;
