@@ -20,7 +20,7 @@ pub = rospy.Publisher('count_up', Int32, queue_size=1)　: パブリッシャが
 
 rospy.Rate(10)　: 秒ごとの送信回数
 
-
+ノードを立ち上げてrostopic echo /threeでトピックとしてデータを得る
 
 # kadai2-2
 
