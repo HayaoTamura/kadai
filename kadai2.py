@@ -7,7 +7,7 @@ n = 0
 def cb(message):
     global n
     n = message.data*3
-
+  
 if __name__ == '__main__': 
     rospy.init_node('three')
     sub = rospy.Subscriber('count_up', Int32, cb) 
