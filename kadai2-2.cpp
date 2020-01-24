@@ -4,7 +4,6 @@
 #include <std_msgs/Bool.h>
 
 class gpio{
-  //construct
   public:
   gpio();
   private:
