@@ -1,4 +1,4 @@
-# kadai
+# kadai2
 
  n = message.gata*3 : 3倍に設定
  
@@ -11,4 +11,4 @@ pub = rospy.Publisher('count_up', Int32, queue_size=1)　: パブリッシャが
 
 rospy.Rate(10)　: 秒ごとの送信回数
 
-
+# kadai2-2
