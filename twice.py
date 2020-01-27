@@ -15,4 +15,4 @@ if __name__ == '__main__':
     rate = rospy.Rate(2)
     while not rospy.is_shutdown():
         pub.publish(n)
-        rate.sleep()
+        rate.sleep(0.5)
