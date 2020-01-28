@@ -4,18 +4,23 @@ import rospy
 
 from std_msgs.msg import Int32
 
+import math
 
 
 n = 0
 
+p = 0
 
 
 def cb(message):
 
     global n
+    
     global p
-    n = message.data*2
-    p = message.data
+    
+    n = message.data % 30
+    
+    p = message.data % 30
 
 
 if __name__ == '__main__': 
@@ -30,6 +35,6 @@ if __name__ == '__main__':
 
     while not rospy.is_shutdown():
 
-        pub.publish(2*n+3*p)
+        pub.publish((n+p)*3)
 
         rate.sleep()
