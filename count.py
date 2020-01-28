@@ -9,4 +9,4 @@ n = 0
 while not rospy.is_shutdown():
     n += 1
     pub.publish(n)
-    rate.sleep(0.5)
+    rate.sleep()
