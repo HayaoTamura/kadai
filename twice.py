@@ -12,7 +12,7 @@ if __name__ == '__main__':
     rospy.init_node('twice')
     sub = rospy.Subscriber('count_up', Int32, cb) 
     pub = rospy.Publisher('twice', Int32, queue_size=1) 
-    rate = rospy.Rate(10)
+    rate = rospy.Rate(1)
     while not rospy.is_shutdown():
         pub.publish(n)
         rate.sleep()
