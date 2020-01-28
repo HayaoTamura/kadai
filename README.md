@@ -1,4 +1,4 @@
-# kadai2
+# 課題2
 
  n = message.gata % 20  : 20で割った余りに設定
  
