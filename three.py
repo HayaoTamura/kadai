@@ -13,9 +13,9 @@ n = 0
 def cb(message):
 
     global n
-
+    global p
     n = message.data*2
-
+    p = message.data*3
 
 
 if __name__ == '__main__': 
