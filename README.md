@@ -22,13 +22,14 @@ rospy.Rate(1)　: 秒ごとの送信回数
 
 pub.publish((n+p)**2)　: カッコ内の式に代入し、表示する
 
+・手順
 
-1個目
+1
 
 roscore
 
 
-2個目
+2
 
 cd
 
@@ -43,8 +44,6 @@ cd ~/catkin_ws
 catkin_make
 
 source ~/.bashrc
-
-
 
 cd ~/catkin_ws/src
 
@@ -65,7 +64,7 @@ chmod u+x count.py
 rosrun mypkg count.py
 
 
-3個目
+3
 
 cd ~/catkin_ws/src/mypkg/scripts/kadai
 
@@ -73,25 +72,11 @@ chmod u+x three.py
 
 rosrun mypkg three.py
 
-(一応twice.pyが授業のまま)
-
-4個目
+4
 
 cd ~/catkin_ws/src/mypkg/scripts/kadai
 
 rostopic echo /twice
 
-撮影
 
-
-
-もしthree.pyの撮影が出来たら、3個目 CTRL+Z？（実行止める）して、
-
-chmod u+x twice.py
-
-rosrun mypkg twice.py
-
-4個目CTRL＋Z？して、
-
-rostopic echo /twice
 
