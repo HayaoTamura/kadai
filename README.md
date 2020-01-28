@@ -74,6 +74,7 @@ chmod u+x three.py
 rosrun mypkg three.py
 
 (一応twice.pyが授業のまま)
+
 4個目
 
 cd ~/catkin_ws/src/mypkg/scripts/kadai
