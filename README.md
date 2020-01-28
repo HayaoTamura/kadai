@@ -69,11 +69,11 @@ rosrun mypkg count.py
 
 cd ~/catkin_ws/src/mypkg/scripts/kadai
 
-chmod u+x twice.py
+chmod u+x three.py
 
-rosrun mypkg twice.py
+rosrun mypkg three.py
 
-
+(一応twice.pyが授業のまま)
 4個目
 
 cd ~/catkin_ws/src/mypkg/scripts/kadai
@@ -81,7 +81,3 @@ cd ~/catkin_ws/src/mypkg/scripts/kadai
 rostopic echo /twice
 
 撮影
-
-
-pを加えてなんか２つにする
-何秒かに1回とか、毎回とか、文字を出すようにする
