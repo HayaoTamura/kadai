@@ -26,10 +26,10 @@ if __name__ == '__main__':
 
     pub = rospy.Publisher('twice', Int32, queue_size=1) 
 
-    rate = rospy.Rate(10)
+    rate = rospy.Rate(1)
 
     while not rospy.is_shutdown():
 
-        pub.publish(n+p)
+        pub.publish(2*n+3*p)
 
         rate.sleep()
