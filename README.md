@@ -8,13 +8,9 @@ Publisher :トピックにデータを送信する
 
 Subscriber　:送信されたデータを受信する 
 
-・サブスクライバ
-
 sub = rospy.Subscriber('count_up', Int32, cb)　: rospy.Subscriberを作る。
 
 型はInt32である。cb : コールバック関数
-　
-・パブリッシャ
 
 rospy.init_node('count')　: ノード名がcount
 
