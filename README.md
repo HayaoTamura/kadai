@@ -1,6 +1,8 @@
 # 課題2
 
- n = message.gata % 20  : 20で割った余りに設定
+countした数値をpub.publishu()の括弧内の式に代入し、表示させるプログラム。
+
+n = message.gata % 20  : 20で割った余りに設定
  
 Publisher :トピックにデータを送信する
 
