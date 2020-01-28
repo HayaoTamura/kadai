@@ -85,13 +85,13 @@ rostopic echo /twice
 
 
 
-もしthree.pyの撮影が出来たら、3個目 CTRL+Zして、
+もしthree.pyの撮影が出来たら、3個目 CTRL+Z？（実行止める）して、
 
 chmod u+x twice.py
 
 rosrun mypkg twice.py
 
-4個目CTRL＋Zして、
+4個目CTRL＋Z？して、
 
 rostopic echo /twice
 
