@@ -82,3 +82,16 @@ cd ~/catkin_ws/src/mypkg/scripts/kadai
 rostopic echo /twice
 
 撮影
+
+
+
+もしthree.pyの撮影が出来たら、3個目 CTRL+Zして、
+
+chmod u+x twice.py
+
+rosrun mypkg twice.py
+
+4個目CTRL＋Zして、
+
+rostopic echo /twice
+
