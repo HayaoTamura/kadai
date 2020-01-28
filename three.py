@@ -15,7 +15,7 @@ def cb(message):
     global n
     global p
     n = message.data*2
-    p = message.data*3
+    p = message.data
 
 
 if __name__ == '__main__': 
@@ -30,6 +30,6 @@ if __name__ == '__main__':
 
     while not rospy.is_shutdown():
 
-        pub.publish(n)
+        pub.publish(n+p)
 
         rate.sleep()
