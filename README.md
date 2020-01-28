@@ -1,6 +1,6 @@
 # kadai2
 
- n = message.gata*3 %20  20で割った余りに設定
+ n = message.gata % 20  : 20で割った余りに設定
  
 Publisher :トピックにデータを送信する
 
@@ -12,7 +12,7 @@ sub = rospy.Subscriber('count_up', Int32, cb)　: rospy.Subscriberを作る。
 
 型はInt32である。cb : コールバック関数
 　
-・パブリッシャの
+・パブリッシャ
 
 rospy.init_node('count')　: ノード名がcount
 
